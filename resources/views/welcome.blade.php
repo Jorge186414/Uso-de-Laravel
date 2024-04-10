@@ -14,10 +14,10 @@
     <h3>Hola Mundo !! </h3>
     <nav>
         <ul>
-            <li><a href="#">Principal</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Venta Laptops</a></li>
-            <li><a href="#">Contactanos</a></li>
+            <li><a href="/">Principal</a></li>
+            <li><a href="/nuestra-tienda">Nosotros</a></li>
+            <li><a href="/venta-de-laptops">Venta Laptops</a></li>
+            <li><a href="/contactanos">Contactanos</a></li>
         </ul>
     </nav>
 </body>
