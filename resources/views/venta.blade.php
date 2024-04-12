@@ -1,5 +1,9 @@
 @extends('layouts/app')
 
 @section('contenido')
-    Perfume 212 Carolina Herrera 100ml $1400
+    Productos
+@endsection
+
+@section('informacion')
+    Lenovo Thinkpad Core i7, 15Gb de ram y 256 de almacenamiento ssd
 @endsection

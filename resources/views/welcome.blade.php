@@ -1,5 +1,9 @@
 @extends('layouts/app')
 
 @section('contenido')
-    La tienda de cosmeticos "AlmaGaby" te ofrece los mejores productos!!
+    Cracker's Laps
+@endsection
+
+@section('informacion')
+    Bienvenido a la mejor tienda de venta de laptops
 @endsection

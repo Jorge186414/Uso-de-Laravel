@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel | TESJI ISIC 3601</title>
+    <title>@yield('contenido')</title>
 
 </head>
 
@@ -21,6 +21,7 @@
         </ul>
     </nav>
     <h4>@yield('contenido')</h4>
+    <p>@yield('informacion')</p>
 </body>
 
 </html>

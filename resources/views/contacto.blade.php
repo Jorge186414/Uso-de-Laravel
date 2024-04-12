@@ -1,5 +1,9 @@
 @extends('layouts/app')
 
 @section('contenido')
-    Estamos ubicados en Acambay Estado de Mexico :)
+    Contactanos
+@endsection
+
+@section('informacion')
+    Contactos por el correo: jorgaismiranda@gmail.com
 @endsection

@@ -1,5 +1,9 @@
 @extends('layouts/app')
 
 @section('contenido')
-    Somos una empresa lider en venta de cosmeticos y perfumeria
+    Quienes Somos
+@endsection
+
+@section('informacion')
+    Somos una nueva opcion para ofrecerte laptos a precios accesibles
 @endsection
