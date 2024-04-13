@@ -11,7 +11,7 @@
 
 <body>
     <h1>Bienvenido a Laravel</h1>
-    <h3>Hola Mundo !! </h3>
+    <h3>Hola Mundo</h3>
     <nav>
         <ul>
             <li><a href="/">Principal</a></li>
