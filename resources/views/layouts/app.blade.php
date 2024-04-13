@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel | TESJI ISIC 3601</title>
+    <title>@yield('contenido')</title>
 
 </head>
 
 <body>
     <h1>Bienvenido a Laravel</h1>
-    <h3>Hola Mundo</h3>
+    <h3>Hola Mundo !! </h3>
     <nav>
         <ul>
             <li><a href="/">Principal</a></li>
@@ -20,15 +20,8 @@
             <li><a href="/contactanos">Contactanos</a></li>
         </ul>
     </nav>
+    <h4>@yield('contenido')</h4>
+    <p>@yield('informacion')</p>
 </body>
 
 </html>
-@extends('layouts/app')
-
-@section('contenido')
-    Cracker's Laps
-@endsection
-
-@section('informacion')
-    Bienvenido a la mejor tienda de venta de laptops
-@endsection
