@@ -4,13 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    @vite('resources/css/app.css')
 
     <title>@yield('contenido')</title>
 
 </head>
 
 <body>
-    <h1>Bienvenido a Laravel</h1>
+    <h1 class="text-3xl font-bold underline">Bienvenido a Laravel</h1>
     <h3>Hola Mundo  </h3>
     <nav>
         <ul>
