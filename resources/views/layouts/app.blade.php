@@ -11,14 +11,14 @@
 </head>
 
 <body>
-    <h1 class="text-3xl font-bold underline">Bienvenido a Laravel</h1>
+    <h1 class="text-3xl font-bold underline text-blue-700">Bienvenido a Laravel</h1>
     <h3>Hola Mundo  </h3>
     <nav>
         <ul>
-            <li><a href="/">Principal</a></li>
-            <li><a href="/nuestra-tienda">Nosotros</a></li>
-            <li><a href="/venta-de-laptops">Venta Laptops</a></li>
-            <li><a href="/contactanos">Contactanos</a></li>
+            <li><a href={{route('home')}}>Principal</a></li>
+            <li><a href={{route('nosotros')}}>Nosotros</a></li>
+            <li><a href={{route('ventas')}}>Venta Laptops</a></li>
+            <li><a href={{route('contactos')}}>Contactanos</a></li>
         </ul>
     </nav>
     <h4>@yield('contenido')</h4>
