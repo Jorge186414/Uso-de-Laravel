@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="flex-row font-mono">
+    <div class="flex-row font-sans">
         <h1 class="text-3xl font-bold underline text-blue-700">@yield('nombre')</h1>
         <h3>Hola Mundo</h3>
         <nav>
